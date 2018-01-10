@@ -37,6 +37,8 @@ class PlaySoundsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
+        stopButton.contentMode = .center
+        stopButton.imageView?.contentMode = .scaleAspectFit
     }
     
     @IBAction func playSoundForButton(_ sender: UIButton) {
