@@ -27,7 +27,7 @@ class PlaySoundsViewController: UIViewController {
     
     let slowSpeed: Float = 0.5
     let fastSpeed: Float = 1.5
-    let chipminkSound: Float = 1000
+    let chipmunkSound: Float = 1000
     let vaderSound: Float = -1000
     
     enum ButtonType: Int {
@@ -53,7 +53,7 @@ class PlaySoundsViewController: UIViewController {
         case .fast:
             playSound(rate: fastSpeed)
         case .chipmunk:
-            playSound(pitch: chipminkSound)
+            playSound(pitch: chipmunkSound)
         case .vader:
             playSound(pitch: vaderSound)
         case .echo:
